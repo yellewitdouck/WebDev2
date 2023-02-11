@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Opdracht 1</title>
+</head>
+<body>
+<h1>Lossy & lossles</h1>
+<h2>Lossy compression</h2>
+<article>Lossy compression refers to compression in which some of the data from the original file (JPEG) is lost.
+  The process is irreversible, once you convert to lossy, you can't go back.
+  And the more you compress it, the more degradation occurs. JPEGs and GIFs are both lossy image formats.
+  By default WordPress uses a lossy compression rate of 90 percent to optimize JPEG images when creating preview images.
+  You can change this using the filter jpeg_quality in your functions.php file.</article><br />
+
+  <article> One of the biggest obvious benefits to using lossy compression is that it results in a significantly reduced file size (smaller than lossless compression method),
+  but it also means there is quality loss. Most tools, plugins, and software out there will let you choose the degree of compression you want to use.
+  In our example below we took an image and applied different compression ratios to it.
+  You can see there is a big decrease in the size of the images which is great.
+  But you can also see the image degrade in quality as you apply higher ratios of compression.</article>
+
+<h3>Lossy advantages and disadvantages</h3>
+<ul>
+  <li>Advantages: Very small file sizes and lots of tools, plugins, and software support it.</li>
+  <li>Disadvantages: Quality degrades with higher ratio of compression. Can't get original back after compressing</li>
+</ul>
+
+<h2>Lossles compression</h2>
+<article>
+Lossless compression refers to compression in which the image is reduced without any quality loss.
+Usually this is done by removing unnecessary metadata from JPEG and PNG files. RAW, BMP, GIF, and PNG are all lossless image formats.
+It is important to note that since JPEGs are a lossy format that when using the "maximum" preset in Photoshop, this doesn't mean it is lossless.
+However, even images exported from Photoshop using the "Save for Web" function can still see significant reductions.
+</article><br />
+<article>
+The big benefit to lossless compression is that you can retain the quality of your image and still achieve a smaller file size.
+We took the same image again and ran it through our Optimus Image Optimizer plugin, which uses lossless compression.
+It also creates progressive JPEGs.
+</article>
+<h3>Lossles advantages and disadvantages</h3>
+<ul>
+  <li>Advantages: No loss of quality, slight decreases in image file sizes.</li>
+  <li>Disadvantages: Larger files than if you were to use lossy compression.</li>
+</ul>
+
+</body>
+</html>
