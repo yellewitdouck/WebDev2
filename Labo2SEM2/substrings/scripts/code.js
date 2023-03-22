@@ -1,6 +1,6 @@
 const setup = () => {
     let btnSub = document.getElementById("btnSub");
-    btnSub.addEventListener("click", getSubString);
+    btnSub.addEventListener("click", getSubStsDSFGHJKLMring);
 }
 const getSubString = () => {
     let input = document.getElementById("input").value;
